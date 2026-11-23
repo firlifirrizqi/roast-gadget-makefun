@@ -10,6 +10,9 @@ ENTRY = (
     "like it's entering hospice, then somehow doomscrolls for six more hours."
 )
 
+# Keep the line exactly as written: no trailing newline, no extra words.
+# The gate counts characters, so the file must hold the line and nothing else.
+
 
 def main() -> None:
     assert 1 <= len(ENTRY) <= 200, f"entry length {len(ENTRY)} out of range"
